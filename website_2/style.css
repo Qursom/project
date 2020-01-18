@@ -1,0 +1,149 @@
+	nav,div,article,aside,footer{
+			border:1px solid black;
+		}
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+			padding-right: 50px;	
+		}
+		ul li a{
+			text-decoration: none;
+			color: black;
+			/*cursor:wait*/;
+		}
+		ul li a:hover{
+			color: blue;
+			font-weight: bold;
+		}
+		nav{
+			background-color: white;
+			position:relative;
+			width: 100%;
+			/*bottom:0px;*/
+			top:0px;
+		}
+		body{
+			font-family:embrima,corbel,arial,tahoma; 
+		}
+		aside{
+			/*width: 20%;*/
+			float: right;
+		
+			/*border: 1px solid red;*/
+			/*margin-top: 100px;*/
+			padding:1%;
+		}
+		.f{
+				width: 40%;
+			float: right;
+		}
+		.l{
+			float: left;
+			width: 30%;
+			size: 10px;
+		}
+  h3{
+  	text-align: center;
+  }
+  h1{
+  	font: bold;
+  	text-align: center;
+  }
+  .b{
+  	text-align: center;
+  }
+  .k{
+  	 	text-align: center;
+  	 	background-color: blue;
+  }
+  .pad{
+ 
+  	padding-top: 7%;
+  	padding-left: 7%;
+  	padding-bottom: 7%;
+  	padding-right: 7%;
+  }
+  #imagestyle{
+			/*border:1px solid black;*/
+			float: left;
+			width:100%;
+			padding:1%;
+			margin-top: 100px;
+			position:relative;
+			top: 0px;
+			padding-right: 7%;
+			/*z-index:10000;*/
+}
+  .heading1{
+  	margin-top: 10%;
+  	text-align: left;
+  	font:bold; 
+  }
+  #textwhite{ 
+  	text-align: right;
+  	font:bolder;
+  	color:white;
+  	background-color: #0c4478;
+  	padding: 2%;
+  }
+  .icon{
+  	float:left;
+  	padding: 2%;
+  }
+  #threedivs{
+  	margin-left: 7%;
+  	margin-right: 7%;
+
+  }
+  #services{
+  	background-color: #e4e9ed;
+  	padding-bottom: 7%; 
+  }
+  #rowserv{
+  	padding-top: 3%;
+  	padding-bottom : 3%;
+  	background-color: white;
+  }
+   #rowserv1{
+  	background-color: white;
+  }
+  #row1{
+  	margin-left: 7%;
+  	margin-right: 7%;
+  	margin-top: 2%;
+  }
+   #row2{
+  	margin-left: 2%;
+  	margin-right: 2%;
+  	margin-top: 2%;
+  }
+  #mission{
+  	padding-left: 7%;
+  	padding-bottom: 3%;
+  }
+  footer{
+		background-color: #0c4478;
+	}
+ footer section  {
+    background-color: #0c4478;
+	width: 30%;
+	float: left;
+
+	text-align: left;
+	//margin: 2px;
+	color: white;
+ 	font-size: 12px;
+ 	padding-left: 3%;
+
+ 	
+
+}
+footer section h4{
+	background-color: #0c4478;
+	text-align: left;
+}
+footer section ul li{
+	background-color: #0c4478;
+	display: block;
+
+}
